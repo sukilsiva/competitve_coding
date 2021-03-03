@@ -25,3 +25,4 @@ if __name__ == "__main__":
         graph[u].append((v,int(w)))
     src,dest = map(str,input().split())
     shortestPath(graph,src,dest)
+    print(graph)

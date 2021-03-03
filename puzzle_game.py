@@ -2,7 +2,9 @@
 # Asked in Multiple Companies like Cisco, Amazon, Facebook, Google, Microsoft etc..
 
 #https://www.codechef.com/problems/H1
+
 from typing import Deque
+
 class puzzlegame:
     def solve_puzzle(self, grid):
         primes = [1,2,3,5,7,11,13,17]  # arr containing prime Numbers

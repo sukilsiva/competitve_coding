@@ -43,8 +43,8 @@ class subset:
         self.solve_subsets(arr, n, v, sum)
 
 if __name__ == "__main__":
-    arr = [2, 5, 8, 4, 6, 11]
+    arr = [2,3,4]
     n = len(arr)
-    sum = 13
+    sum = 5
     sub = subset()
     sub.printsubsets(arr, n, sum)
