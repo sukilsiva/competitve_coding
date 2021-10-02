@@ -55,6 +55,7 @@ def solution(n, arr):
         j+=1
     ### add the final count and return 
     return l_count + r_count
+    ### Future scope we can use Binary search to reduce time complexity but it won't work worst case scenarios
 
 if __name__ == "__main__":
     n = int(input())
